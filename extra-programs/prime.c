@@ -4,7 +4,7 @@ int main()
     int limit,flag,i,j,count;
     printf("enter a number:");
     scanf("%d",&limit);
-    for(i=1;i<=limit;i++)
+    for(i=2;i<=limit;i++)
     {
         flag=0;
         for(j=2;j<i;j++){

@@ -4,9 +4,9 @@ int findElement(int n,int key,int arr[]);
 int main()
 {
     int i;
-    int arr[]={1,2,3,4,5};
-    int n=sizeof(arr)/sizeof(arr[0]);        
-    int key=4;
+    int arr[]={1,33,22,4,5};
+    int n=sizeof(arr)/sizeof(arr[0]);        //5*4=20/4=5
+    int key=22;       
     int position=findElement(n,key,arr);
 
     if(position==-1)
